@@ -1,1 +1,22 @@
+img {
+	width: 200px;
+	border-radius: 10px;
+	border: 5px solid #555;
+	float: left;
+	margin-right: 30px;
+}
 
+p.title {
+	font-size: 80px;
+	text-decoration: underline;
+	font-family: monospace;
+}
+
+p.minitext {
+	font-size: 40px;
+	font-family: serif;
+}
+
+a {
+	font-size: 50px;
+}
