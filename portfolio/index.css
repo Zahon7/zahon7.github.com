@@ -1,0 +1,48 @@
+.center {
+  margin-top: calc(50vh - 22vh);
+  height: 45vh;
+
+  margin-left: calc(50vw - 22vh);
+  width: 45vh;
+
+  border-radius: 25px;
+  border-style: solid;
+}
+
+.loginText {
+	font-size: 50px;
+
+	position: relative;
+	float: left;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.loginButton {
+	font-size: 25px;
+
+	margin: 0;
+    position: absolute;
+    top: 60%;
+    
+    -ms-transform: translateY(-50%);
+    -ms-transform: translateX(-80%);
+
+    transform: translateY(-50%);
+    transform: translateX(-145%);
+}
+
+.password {
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    
+    -ms-transform: translateY(-50%);
+    -ms-transform: translateX(-80%);
+
+    transform: translateY(-50%);
+    transform: translateX(-80%);
+
+	font-size: 25px;
+}
