@@ -11,8 +11,8 @@
   </head>
   <body>
     <div class="center">
-      <h class="loginText">Zadej heslo!</h>
-      <input name="password" type="text" maxlength="512" id="password" class="password"/>
+      <h class="loginText">Zadejte heslo</h>
+      <input name="password" type="password" maxlength="512" id="password" class="password"/>
       <button class="loginButton" onclick="xorFile('strany/strana.htenc', document.getElementById('password').value).then(output => runCode(output))">Potvrdit</button>
     </div>
   </body>
