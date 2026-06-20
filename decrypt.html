@@ -3,13 +3,13 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Vítejte</title>
+  <title>Prohlížeč</title>
   <meta name="author" content="">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link href="style.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css"> 
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css"> 
 </head>
 
 <body>
@@ -27,8 +27,19 @@
   </div>  
 
   <div class="padding">
-    <h1>Vítejte!</h1>
-    <p>Na této stránce se nachází velice užitečné informace a věci</p>
+    <h1>Otevřít zakódovaný soubor</h1>
+    <div class="decrypt-window">
+      <p style="text-align: center; margin-bottom: 0; margin-top: 0;">Jméno souboru</p>
+      <select name="Jméno souboru" id="filename" class="center">
+        <option value="tacn">tacn.html</option>
+        <option value="tatp">tatp.html</option>
+      </select>
+      <p style="text-align: center; margin-bottom: 0; margin-top: 30px">Heslo</p>
+      <input type="password" id="password" name="Heslo">
+      <br>
+      <br>
+      <button class="center" onclick="decryptInput();">Otevřít</button>
+    </div>
   </div>
 
   <script src="script.js"></script>

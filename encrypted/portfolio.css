@@ -1,0 +1,32 @@
+.arrows {
+	margin-top: 10vh;
+	font-size: 25px;
+}
+
+img {
+	height: 40vh;
+	border-radius: 10px;
+	display:block;
+    margin:auto;
+}
+
+h {
+	font-size: 35px;
+	font-style: bold;
+	line-height: 50px;
+}
+
+h.globalTitle {
+	font-size: 70px;
+	line-height: 100px;
+}
+
+a {
+	font-size: 25px;
+	line-height: 35px;
+}
+
+h,
+img {
+	display: block;
+}

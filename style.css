@@ -1,0 +1,28 @@
+.padding {
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.decrypt-window {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    border-width: 2px;
+    border-style: ridge;
+    border-color: black;
+
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+.center {
+    margin: 0 auto;
+    display: block;
+}
+
+img {
+    float: right;
+    width: min(50vw, 50vh);
+}
