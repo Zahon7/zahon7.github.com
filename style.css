@@ -26,3 +26,19 @@ img {
     float: right;
     width: min(50vw, 50vh);
 }
+
+.links {
+    margin-top: 8%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 40vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttonLinks {
+    width: fit-content;
+    height: fit-content;
+
+    font-size: 5vh;
+}
